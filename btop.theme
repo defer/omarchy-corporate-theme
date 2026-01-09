@@ -1,0 +1,70 @@
+# -----------------------------
+# PaperColor Light – btop theme
+# -----------------------------
+
+# Main background
+theme[main_bg]="#eeeeee"
+theme[main_fg]="#444444"
+
+# Titles & labels
+theme[title]="#444444"
+theme[graph_text]="#444444"
+theme[graph_label]="#444444"
+
+# Highlights
+theme[hi_fg]="#0087af"       # papercolor blue highlight
+
+# Selections
+theme[selected_bg]="#bcbcbc"
+theme[selected_fg]="#444444"
+
+# Inactive text
+theme[inactive_fg]="#878787"
+
+# Process box
+theme[proc_bg]="#eeeeee"
+theme[proc_fg]="#444444"
+
+# ------------------------------------
+# CPU Colors (based on diff/add Yellow-Green + Blue)
+# ------------------------------------
+theme[cpu_start]="#008700"    # papercolor green
+theme[cpu_mid]="#5f8700"      # olive/yellow-green
+theme[cpu_end]="#0087af"      # papercolor blue
+
+# ------------------------------------
+# Memory Colors (PaperColor blue/cyan → green)
+# ------------------------------------
+theme[mem_start]="#005f87"    # deep cyan
+theme[mem_mid]="#005faf"      # bright cyan
+theme[mem_end]="#008700"      # green
+
+# ------------------------------------
+# Swap Colors (use folded/visual palette aesthetics)
+# ------------------------------------
+theme[swap_start]="#878787"   # neutral
+theme[swap_mid]="#0087af"     # blue
+theme[swap_end]="#5f8700"     # olive
+
+# ------------------------------------
+# Network (download/upload)
+# Download: cyan → blue
+# Upload: blue → cyan → green (based on vim's visual/fg)
+# ------------------------------------
+
+# Download
+theme[download_start]="#005f87"
+theme[download_mid]="#005faf"
+theme[download_end]="#0087af"
+
+# Upload
+theme[upload_start]="#0087af"
+theme[upload_mid]="#005faf"
+theme[upload_end]="#008700"
+
+# ------------------------------------
+# "Used" bars (PaperColor neutral set)
+# ------------------------------------
+theme[used_start]="#878787"    # papercolor grey
+theme[used_mid]="#bcbcbc"      # light grey
+theme[used_end]="#444444"      # foreground

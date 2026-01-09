@@ -1,0 +1,77 @@
+# Kitty → Alacritty conversion
+
+[colors.primary]
+background = "#eeeeee"
+foreground = "#444444"
+dim_foreground = "#444444"
+bright_foreground = "#444444"
+
+[colors.cursor]
+text = "#eeeeee"      # kitty: cursor_text_color = background
+cursor = "#444444"
+
+[colors.vi_mode_cursor]
+text = "#444444"
+cursor = "#005f87"    # reused from blue/cyan hues
+
+[colors.search.matches]
+foreground = "#444444"
+background = "#bcbcbc"
+
+[colors.search.focused_match]
+foreground = "#eeeeee"
+background = "#5f8700"
+
+[colors.footer_bar]
+foreground = "#444444"
+background = "#eeeeee"
+
+[colors.hints.start]
+foreground = "#444444"
+background = "#af0000"
+
+[colors.hints.end]
+foreground = "#444444"
+background = "#eeeeee"
+
+[colors.selection]
+text = "#444444"
+background = "#bcbcbc"
+
+[colors.normal]
+black   = "#eeeeee"
+red     = "#af0000"
+green   = "#008700"
+yellow  = "#5f8700"
+blue    = "#0087af"
+magenta = "#878787"
+cyan    = "#005f87"
+white   = "#444444"
+
+[colors.bright]
+black   = "#bcbcbc"
+red     = "#d70000"
+green   = "#d70087"
+yellow  = "#8700af"
+blue    = "#d75f00"
+magenta = "#d75f00"
+cyan    = "#005faf"
+white   = "#005f87"
+
+[colors.dim]
+black   = "#dcdcdc"
+red     = "#8a0000"
+green   = "#007000"
+yellow  = "#4a7000"
+blue    = "#007090"
+magenta = "#6f6f6f"
+cyan    = "#004c70"
+white   = "#333333"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#d70000"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#d70087"
